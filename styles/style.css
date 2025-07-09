@@ -1,0 +1,166 @@
+*{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+body{
+    background-color: black;
+}
+header{
+    margin: 20px 200px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navlist{
+    display: flex;
+    justify-content: space-around;
+}
+.navlist li{
+    padding-left: 20px;
+}
+.headersection{
+    margin-top: 100px;
+}
+.headertitle{
+    font-weight: 200;
+    width: 731px;
+    font-size: 72px;
+}
+.headercontain{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    margin-top: 50px;
+}
+.headerbuttons{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 58px;
+}
+.first{
+    width: 187px;
+    margin-right: 10px;
+}
+.arrow{
+    transform: rotate(45deg);
+    margin-left: 10px;
+}
+.second{
+    width: 109px;
+}
+.headerbuttons:hover{
+    color: black;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.headerbuttons:hover *{
+    color: black;
+}
+.photo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+.rightarm{
+    align-self: end;
+}
+.trust{
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    flex-direction: column;
+}
+.trustlist{
+    display: flex;
+    width: 731px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.trustlist li{
+    margin-left: 100px;
+}
+.importantli{
+    margin-left: 0px !important;
+}
+.trustcontain{
+    margin-top: 50px;
+}
+.twoface{
+    margin-top: 200px;
+    display: flex;
+}
+.creating{
+    background-image: url(../imgs/b0bac2dfc523ad081176ec591dda8634f7572dbe.png);
+    width: 50%;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: end;
+    padding-left: 70px;
+    padding-bottom: 70px;
+    flex-direction: column;
+}
+.creatingtitle{
+    width: 421px;
+    font-size: 36px;
+    font-weight: 200;
+    margin-top: 5px;
+}
+.bluebutton{
+    margin-top: 50px;
+    background-color: blue;
+    width: 114px;
+    height: 58px;
+    border: none;
+}
+.bluebutton:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.academy{
+    background-image: linear-gradient(to bottom, black, rgba(0, 0 ,0, 0.5), rgba(0, 0 ,0, 0)), url(../imgs/136a5cb778037131b06f38d44cb7f24b878c7ae1.jpg);
+    width: 50%;
+    background-repeat: no-repeat;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: start;
+    padding-left: 70px;
+    padding-bottom: 70px;
+    flex-direction: column;
+}
+.slashacademy{
+    margin-top: 70px;
+    font-size: 20px;
+}
+.bolt{
+    color: blueviolet;
+}
+footer{
+    margin: 0px 100px;
+    margin-top: 200px;
+}
+.footercontain{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.footertitle{
+    font-size: 40px;
+    font-weight: 200;
+    width: 329px;
+    align-self: flex-end;
+}
+.buttonscontain{
+    display: flex;
+    align-items: start;
+}
